@@ -19,10 +19,19 @@ public class StreamTaskTest {
                 {
                         new int[]{13, -2, 33, -4, 5},
                         20
+                },
+                {
+                        new int[]{10, 11, 0, -11, -10},
+                        200
+                },
+                {
+                        new int[]{-3, -6, -10, -11, -19},
+                        136
                 }
-                // TODO add 2 more test data here
+
         };
     }
+
 
     @DataProvider(name = "arrays")
     public static Object[][] arrays() {
@@ -38,8 +47,16 @@ public class StreamTaskTest {
                 {
                         new int[]{130, -200, 330, -40, 50, 66},
                         new int[]{}
+                },
+                {
+                        new int[]{0, -220, -44, -40, -50, -66},
+                        new int[]{}
+                },
+                {
+                        new int[]{11, 11, 4, 0, 8},
+                        new int[]{11, 11}
                 }
-                // TODO add 2 more test data here
+
         };
     }
 
